@@ -5,5 +5,5 @@ Feature: Verify information for medium post
 
     Scenario: Validate information
       Given the medium home page loaded
-      When "Katty" search the post stored in a excel file
+      When I search the post stored in a excel file
       Then the information about each post should be the same
